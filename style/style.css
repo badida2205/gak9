@@ -1,0 +1,147 @@
+*{
+margin: 0;
+padding: 0;
+list-style-type:none;
+box-sizing: border-box;
+text-decoration: none;
+}
+header{
+background-image: linear-gradient(to right, #c4c4c4, #ff0000 );
+padding: 64px 38px;
+align-items: center;
+display: flex;
+}
+header ul{
+/* background-color: brown; */
+width: 462px;
+align-items: center;
+justify-content: space-between;
+display: flex
+}
+header nav{
+    margin-left: 100px;
+}
+header ul a{
+color: black;
+/* background-color: brown; */
+font-size: 18px;
+padding: 5px 5px;
+/* transition: 1s; */
+}
+.logo{
+width: 100px;
+}
+header ul a:hover{
+    color: #ff0011;
+}
+.item{
+    height: 600px;
+    overflow: hidden;
+}
+.mainarticle{
+    width: 30%;
+    background-color: #ff2525;
+    overflow: hidden;
+    border-radius: 10% 10% 10% 10%;
+    border: solid black;
+}
+
+.mainarticle div{
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+.mainarticle div img{
+    width: 100%;
+}
+.mainarticle section{
+    padding: 14px 68px 12px 12px;
+}
+.mainarticle section p{
+margin: 14px 0;
+height: 80%;
+overflow: hidden;
+white-space: nowrap;
+text-overflow: ellipsis;
+width: 300px;
+/*an display:- weblit box
+webkit line clamp:2
+webkit box orient owerflow hiden*/
+}
+.mainarticle section h2{
+font-size: 18px;
+}
+.mainarticle section p a{
+    color: rgb(0,0,0,1);
+    text-decoration: underline;
+}
+.artiklcontainer{
+    display: flex;
+    justify-content: space-between;
+    padding: 34px 34px 48px 34px;
+}
+footer{
+    padding: 48px 0 30px 38px;
+}
+/*///////////////////////////////////////*/
+/* innerpage styles*/
+/*start*/
+/*////////////////////////////////////*/
+.sarqturqmain{
+    padding: 14px 34px 46px 38px;
+}
+.goback{
+    margin-left: 8px;
+ margin-bottom: 14px;
+}
+.goback a{
+
+    font-size: 12px;
+    color: rgba(0, 0, 0, 1);
+}
+.innerartikle{
+background-color: #ff2525;
+padding-top: 56px;
+padding-bottom: 50px;
+}
+.imgpearent{
+    display: flex;
+    margin-top: 70px;
+    margin-bottom: 36px;
+}
+.innerimage{
+width: 33.33%;
+height: 300px;
+overflow: hidden;
+}
+.innerimage img{
+    width: 100%;
+    filter: grayscale();
+    transition: 0.5s;
+}
+.innerartikle h2{
+margin-left: 10px;
+    font-size: 18px;
+}
+.innerartikle p{
+font-size: 14px;
+padding: 0 20px 0 10px;
+}
+.matchi{
+    color: rgb(255, 187, 0);
+}
+.innerartikle p span{
+display: block;
+margin: 10px 0;
+text-indent: 20px;
+}
+.innerimage img:hover{
+    filter: none;
+    transform: scale(1.1);
+}
+.limon{
+    background-color: #ff3744;
+}
+.fortoxali{
+    background-color: #fa3953;
+}
